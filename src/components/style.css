@@ -44,11 +44,28 @@
   transition-delay: 0.4s;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #be3144;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
 @media (max-width: 830px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 @media (max-width: 620px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);

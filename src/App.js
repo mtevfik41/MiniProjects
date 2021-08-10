@@ -12,6 +12,7 @@ function App() {
         { title: 'Blurry Loading', href: process.env.PUBLIC_URL + '/Projects/BlurryLoading/index.html' },
         { title: 'Scroll Animation', href: process.env.PUBLIC_URL + '/Projects/ScrollAnimation/index.html' },
         { title: 'Form Wave Animation', href: process.env.PUBLIC_URL + '/Projects/FormWaveAnimation/index.html' },
+        { title: 'Split Landing Page', href: process.env.PUBLIC_URL + '/Projects/SplitLandingPage/index.html' },
 
 
     ];

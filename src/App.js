@@ -1,7 +1,6 @@
 import React from "react";
 
 import Grid from './components/Grid'
-import Footer from './components/Footer'
 
 function App() {
 
@@ -42,7 +41,6 @@ function App() {
             <Grid items={DATA}>
 
             </Grid>
-            <Footer></Footer>
         </div>
     );
 }
